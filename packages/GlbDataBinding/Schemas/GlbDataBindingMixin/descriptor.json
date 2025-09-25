@@ -4,6 +4,7 @@
     "Name": "GlbDataBindingMixin",
     "ModifiedOnUtc": "\/Date(1635027670000)\/",
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "GlbDataBindingMixin"
+    "Caption": "GlbDataBindingMixin",
+    "DependsOn": []
   }
 }

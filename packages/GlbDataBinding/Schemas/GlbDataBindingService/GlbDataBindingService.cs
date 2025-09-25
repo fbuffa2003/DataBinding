@@ -10,6 +10,7 @@ namespace Terrasoft.Configuration.GlbDataBindingService
 	using Terrasoft.Nui.ServiceModel.DataContract;
 	using Terrasoft.Web.Common;
 	using System.Web.SessionState;
+    using Terrasoft.Common.Json;
 
 	#region Class: GlbDataBindingService
 	
@@ -28,8 +29,8 @@ namespace Terrasoft.Configuration.GlbDataBindingService
 			);
 			var result = helper.GetPackages(request.SchemaName);
 			return Newtonsoft.Json.JsonConvert.SerializeObject(result);
-		}
-		
+        }
+      
 		[OperationContract]
 		[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
 		public Response RestoreColumnSetup(Request request) 

@@ -4,6 +4,7 @@
     "Name": "GlbDataBindingHelper",
     "ModifiedOnUtc": "\/Date(1634726473000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "GlbDataBindingHelper"
+    "Caption": "GlbDataBindingHelper",
+    "DependsOn": []
   }
 }

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/GlbDataBinding/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/GlbDataBinding/Data/**" />
+		<Compile Remove="$(PkgPath)/GlbDataBinding/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/GlbDataBinding/Schemas\**" />
+		<Compile Remove="$(PkgPath)/GlbDataBinding/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/GlbDataBinding/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/GlbDataBinding/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/GlbDataBinding/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/GlbDataBinding/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/GlbDataBinding/Resources/**" />
+		<None Remove="$(PkgPath)/GlbDataBinding/Assemblies/**" />
+		<None Remove="$(PkgPath)/GlbDataBinding/Data/**" />
+		<None Remove="$(PkgPath)/GlbDataBinding/SqlScripts/**" />
+		<None Remove="$(PkgPath)/GlbDataBinding/Schemas/**" />
+		<None Remove="$(PkgPath)/GlbDataBinding/Resources/**" />
+  </ItemGroup>
+</Project>

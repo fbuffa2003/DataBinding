@@ -3,8 +3,10 @@
     "UId": "06b2f9c5-2217-4cca-9749-77d954e77765",
     "PackageVersion": "1.0.0",
     "Name": "GlbDataBinding",
-    "ModifiedOnUtc": "\/Date(1502121214000)\/",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1756305135000)\/",
     "Maintainer": "Global",
+    "ProjectPath": "Files/GlbDataBinding.csproj",
     "DependsOn": [
       {
         "UId": "613fd913-be03-46ce-909b-f44e4225469e",
